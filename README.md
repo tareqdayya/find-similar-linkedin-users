@@ -13,6 +13,7 @@ POSTGRES_DB_PASSWORD='password'
 POSTGRES_DB_HOST='db'
 POSTGRES_DB_NAME='linkedin'
 POSTGRES_DB_PORT=5432
+USER_URL_TO_START_AT=https://linkedin.com/some-user
 
 PORT=3000
 ```
