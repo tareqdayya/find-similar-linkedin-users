@@ -1,0 +1,11 @@
+.idea/*
+node_modules/*
+TODO
+.env
+yarn-error.log
+.DS_Store
+scratch.txt
+/test-results/
+/playwright-report/
+/playwright/.cache/
+scratch.html
