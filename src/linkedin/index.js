@@ -327,7 +327,7 @@ const runLinkedIn = async () => {
         await client.end();
     });
 
-    await page.goto('https://www.linkedin.com/in/', { waitUntil: 'domcontentloaded' });
+    await page.goto(process.env.USER_URL_TO_START_AT, { waitUntil: 'domcontentloaded' });
 };
 
 export default runLinkedIn;
