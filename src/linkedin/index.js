@@ -313,7 +313,7 @@ const runLinkedIn = async () => {
     client = await connectToDb();
     await migrateDb();
 
-    const browserURL = `http://docker.for.mac.localhost:9222`;
+    const browserURL = `http://docker.for.${process.env.OS}.localhost:9222`;
     const browser = await chromium.connectOverCDP(browserURL);
     const ctx = await browser.contexts()[0];
     const page = await ctx.pages()[0];

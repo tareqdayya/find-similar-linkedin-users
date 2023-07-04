@@ -30,7 +30,7 @@ Once the browser is open, sign in into linked in. It's better to use an account 
 # Exposing the host to the docker container so we can access the running chrome
 Run the following script:
 
-`docker network create -d bridge --subnet 192.168.1.0/24 --gateway 192.168.1.12 dockernet`
+`docker network create -d bridge --subnet 192.168.0.0/24 --gateway 192.168.0.1 dockernet`
 
 # Running the docker server:
 
